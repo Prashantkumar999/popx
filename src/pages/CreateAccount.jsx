@@ -12,7 +12,7 @@ const CreateAccount = () => {
     return (
         <div className='flex flex-col gap-10 px-2 pt-2'>
             <div>
-           <h2 className='text-2xl font-semibold'>Create your popX account</h2>
+                <h2 className='text-2xl font-semibold'>Create your popX account</h2>
             </div>
             <form onSubmit={onSubmitHandler} className='relative flex w-full flex-col gap-4'>
 
@@ -55,7 +55,7 @@ const CreateAccount = () => {
                     </div>
                 </div>
 
-                <button onSubmit={onSubmitHandler} type='submit' className='absolute -bottom-[40%] bg-purple-600 w-full text-white font-semibold py-3 text-xl rounded-md'>
+                <button type='submit' className='absolute -bottom-[40%] bg-purple-600 w-full text-white font-semibold py-3 text-xl rounded-md'>
                     Create Account
                 </button>
 
