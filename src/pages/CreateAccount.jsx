@@ -55,7 +55,7 @@ const CreateAccount = () => {
                     </div>
                 </div>
 
-                <button type='submit' className='absolute -bottom-[40%] bg-purple-600 w-full text-white font-semibold py-3 text-xl rounded-md'>
+                <button onSubmit={onSubmitHandler} type='submit' className='absolute -bottom-[40%] bg-purple-600 w-full text-white font-semibold py-3 text-xl rounded-md'>
                     Create Account
                 </button>
 
