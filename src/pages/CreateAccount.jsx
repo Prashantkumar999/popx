@@ -6,7 +6,7 @@ const CreateAccount = () => {
 
     const onSubmitHandler = (e) => {
         e.preventDefault();
-        navigate("/account-setting"); 
+        navigate("/account-setting");
     };
 
     return (
